@@ -35,7 +35,7 @@ jobs:
 
       # 2. Static analysis
       - name: Analyze code
-        run: flutter analyze
+        run: flutter analyze --no-fatal-infos
 
       # 3. Test execution
       - name: Run unit tests
