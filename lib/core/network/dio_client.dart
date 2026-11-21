@@ -13,7 +13,7 @@ class DioClient {
           customDio ??
           Dio(
             BaseOptions(
-              baseUrl: Env.apiBaseUrl,
+              baseUrl: Env.baseUrl,
               connectTimeout: Env.connectTimeout,
               receiveTimeout: Env.receiveTimeout,
               headers: {

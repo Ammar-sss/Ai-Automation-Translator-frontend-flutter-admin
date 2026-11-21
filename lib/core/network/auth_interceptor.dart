@@ -47,7 +47,7 @@ class AuthInterceptor extends QueuedInterceptor {
       try {
         final refreshDio = Dio(
           BaseOptions(
-            baseUrl: Env.apiBaseUrl,
+            baseUrl: Env.baseUrl,
             connectTimeout: Env.connectTimeout,
             receiveTimeout: Env.receiveTimeout,
             headers: {'Content-Type': 'application/json'},

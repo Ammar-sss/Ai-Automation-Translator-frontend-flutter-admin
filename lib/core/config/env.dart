@@ -3,7 +3,7 @@ import 'package:smart_translater_admin/core/config/secrets.dart';
 class Env {
   const Env._();
 
-  static const String apiBaseUrl = Secrets.baseUrl;
+  static const String baseUrl = Secrets.baseUrl;
 
   static const Duration connectTimeout = Duration(seconds: 100);
   static const Duration receiveTimeout = Duration(seconds: 100);
